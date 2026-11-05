@@ -1,0 +1,35 @@
+{
+  "journeys": [
+    {
+      "type": "best",
+      "duration": 1920,
+      "nb_transfers": 1,
+      "departure_date_time": "20261105T093000",
+      "arrival_date_time": "20261105T100200",
+      "sections": [
+        {
+          "type": "street_network", "mode": "walking", "duration": 240,
+          "from": {"name": "Gentilly"}, "to": {"name": "Gentilly"},
+          "departure_date_time": "20261105T093000", "arrival_date_time": "20261105T093400"
+        },
+        {
+          "type": "public_transport", "duration": 660,
+          "display_informations": {"commercial_mode": "RER", "code": "B", "direction": "Aéroport CDG 2 TGV", "network": "RER"},
+          "from": {"name": "Gentilly"}, "to": {"name": "Châtelet les Halles"},
+          "departure_date_time": "20261105T093400", "arrival_date_time": "20261105T094500"
+        },
+        {
+          "type": "transfer", "transfer_type": "walking", "duration": 300,
+          "from": {"name": "Châtelet les Halles"}, "to": {"name": "Châtelet"},
+          "departure_date_time": "20261105T094500", "arrival_date_time": "20261105T095000"
+        },
+        {
+          "type": "public_transport", "duration": 720,
+          "display_informations": {"commercial_mode": "Métro", "code": "1", "direction": "La Défense", "network": "Metro"},
+          "from": {"name": "Châtelet"}, "to": {"name": "Charles de Gaulle - Étoile"},
+          "departure_date_time": "20261105T095000", "arrival_date_time": "20261105T100200"
+        }
+      ]
+    }
+  ]
+}

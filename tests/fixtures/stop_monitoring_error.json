@@ -1,0 +1,16 @@
+{
+  "Siri": {
+    "ServiceDelivery": {
+      "ResponseTimestamp": "2026-11-05T09:25:00.000+01:00",
+      "StopMonitoringDelivery": [
+        {
+          "ResponseTimestamp": "2026-11-05T08:25:00.000Z",
+          "Status": "false",
+          "ErrorCondition": {
+            "ErrorInformation": {"ErrorText": "MonitoringRef inconnu", "ErrorDescription": "Unknown stop"}
+          }
+        }
+      ]
+    }
+  }
+}

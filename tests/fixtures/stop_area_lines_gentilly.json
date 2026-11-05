@@ -1,0 +1,6 @@
+{
+  "lines": [
+    {"id": "line:IDFM:C01743", "code": "B", "name": "B", "commercial_mode": {"id": "commercial_mode:RapidTransit", "name": "RER"}},
+    {"id": "line:IDFM:C01057", "code": "57", "name": "Arcueil - Gare d'Austerlitz", "commercial_mode": {"id": "commercial_mode:Bus", "name": "Bus"}}
+  ]
+}

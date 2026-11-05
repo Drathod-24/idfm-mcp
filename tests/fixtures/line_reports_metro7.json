@@ -1,0 +1,40 @@
+{
+  "line_reports": [
+    {
+      "line": {
+        "id": "line:IDFM:C01377", "code": "7", "name": "La Courneuve - Villejuif",
+        "commercial_mode": {"id": "commercial_mode:Metro", "name": "Métro"},
+        "links": [
+          {"type": "disruption", "id": "d-works-1", "rel": "disruptions", "templated": false},
+          {"type": "disruption", "id": "d-lift-1", "rel": "disruptions", "templated": false}
+        ]
+      },
+      "pt_objects": []
+    }
+  ],
+  "disruptions": [
+    {
+      "id": "d-works-1",
+      "status": "active",
+      "cause": "travaux",
+      "category": "Travaux",
+      "tags": ["Actualité"],
+      "severity": {"name": "perturbée", "effect": "REDUCED_SERVICE", "priority": 20, "color": "#FF8000"},
+      "application_periods": [{"begin": "20261105T060000", "end": "20261105T230000"}],
+      "messages": [
+        {"text": "Métro 7 : trafic perturbé", "channel": {"name": "titre", "content_type": "text/plain"}},
+        {"text": "<p>En raison de travaux, le trafic est interrompu entre <b>Place d&#39;Italie</b> et Villejuif.</p><p>Des bus de remplacement sont mis en place.</p>", "channel": {"name": "moteur", "content_type": "text/html"}}
+      ]
+    },
+    {
+      "id": "d-lift-1",
+      "status": "active",
+      "tags": ["Ascenseur"],
+      "severity": {"name": "information", "effect": "UNKNOWN_EFFECT", "priority": 50},
+      "application_periods": [{"begin": "20261101T000000", "end": "20261130T235900"}],
+      "messages": [
+        {"text": "Ascenseur hors service à Gare de l'Est", "channel": {"name": "titre"}}
+      ]
+    }
+  ]
+}

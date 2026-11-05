@@ -1,0 +1,55 @@
+{
+  "Siri": {
+    "ServiceDelivery": {
+      "ResponseTimestamp": "2026-11-05T09:25:00.000+01:00",
+      "ProducerRef": "PRIM",
+      "StopMonitoringDelivery": [
+        {
+          "ResponseTimestamp": "2026-11-05T08:25:00.000Z",
+          "Version": "2.0",
+          "Status": "true",
+          "MonitoredStopVisit": [
+            {
+              "RecordedAtTime": "2026-11-05T08:24:50.000Z",
+              "MonitoringRef": {"value": "STIF:StopArea:SP:63244:"},
+              "MonitoredVehicleJourney": {
+                "LineRef": {"value": "STIF:Line::C01743:"},
+                "OperatorRef": {"value": "SNCF_ACCES_CLOUD:Operator::RER:"},
+                "DirectionName": [{"value": "Saint-Rémy-lès-Chevreuse"}],
+                "DestinationRef": {"value": "STIF:StopPoint:Q:411344:"},
+                "DestinationName": [{"value": "Saint-Rémy-lès-Chevreuse"}],
+                "JourneyNote": [{"value": "SOPI"}],
+                "MonitoredCall": {
+                  "StopPointName": [{"value": "Gentilly"}],
+                  "VehicleAtStop": false,
+                  "DestinationDisplay": [{"value": "Saint-Rémy-lès-Chevreuse"}],
+                  "AimedDepartureTime": "2026-11-05T08:31:00.000Z",
+                  "ExpectedDepartureTime": "2026-11-05T08:33:00.000Z",
+                  "DepartureStatus": "delayed",
+                  "ArrivalPlatformName": {"value": "2"}
+                }
+              }
+            },
+            {
+              "RecordedAtTime": "2026-11-05T08:24:50.000Z",
+              "MonitoringRef": {"value": "STIF:StopArea:SP:63244:"},
+              "MonitoredVehicleJourney": {
+                "LineRef": {"value": "STIF:Line::C01743:"},
+                "DirectionName": [{"value": "Aéroport CDG 2 TGV"}],
+                "DestinationName": [{"value": "Aéroport CDG 2 TGV"}],
+                "MonitoredCall": {
+                  "StopPointName": [{"value": "Gentilly"}],
+                  "VehicleAtStop": true,
+                  "DestinationDisplay": [{"value": "Aéroport CDG 2 TGV"}],
+                  "AimedDepartureTime": "2026-11-05T08:26:00.000Z",
+                  "ExpectedDepartureTime": "2026-11-05T08:26:00.000Z",
+                  "DepartureStatus": "onTime"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "places": [
+    {
+      "id": "stop_area:IDFM:63244",
+      "name": "Gentilly (Gentilly)",
+      "embedded_type": "stop_area",
+      "quality": 90,
+      "stop_area": {
+        "id": "stop_area:IDFM:63244",
+        "name": "Gentilly",
+        "administrative_regions": [{"id": "admin:fr:94037", "name": "Gentilly"}],
+        "lines": [
+          {"id": "line:IDFM:C01743", "code": "B", "name": "B", "commercial_mode": {"id": "commercial_mode:RapidTransit", "name": "RER"}},
+          {"id": "line:IDFM:C01057", "code": "57", "name": "Arcueil - Gare d'Austerlitz", "commercial_mode": {"id": "commercial_mode:Bus", "name": "Bus"}}
+        ]
+      }
+    },
+    {
+      "id": "stop_area:IDFM:71061",
+      "name": "Mairie de Gentilly (Gentilly)",
+      "embedded_type": "stop_area",
+      "quality": 70,
+      "stop_area": {
+        "id": "stop_area:IDFM:71061",
+        "name": "Mairie de Gentilly",
+        "administrative_regions": [{"id": "admin:fr:94037", "name": "Gentilly"}],
+        "lines": []
+      }
+    }
+  ],
+  "context": {"timezone": "Europe/Paris", "current_datetime": "20261105T092500"}
+}

@@ -1,0 +1,16 @@
+{
+  "pt_objects": [
+    {
+      "id": "line:IDFM:C01377",
+      "name": "Métro 7 (La Courneuve - 8 Mai 1945 - Mairie d'Ivry / Villejuif)",
+      "embedded_type": "line",
+      "line": {
+        "id": "line:IDFM:C01377",
+        "code": "7",
+        "name": "La Courneuve - 8 Mai 1945 - Mairie d'Ivry / Villejuif",
+        "commercial_mode": {"id": "commercial_mode:Metro", "name": "Métro"},
+        "network": {"id": "network:IDFM:Operator_100", "name": "RATP"}
+      }
+    }
+  ]
+}
